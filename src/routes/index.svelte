@@ -58,9 +58,10 @@
     font-size: 90px;
     font-weight: bold;
   }
-  img {
-    width: 304px;
-    height: 452px;
+  @media screen and (max-width: 500px){
+    img {
+      width: 200px;
+    }
   }
 
 </style>
