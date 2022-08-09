@@ -59,7 +59,8 @@
     font-weight: bold;
   }
   img {
-    max-width: 400px;
+    width: 304px;
+    height: 452px;
   }
 
 </style>
