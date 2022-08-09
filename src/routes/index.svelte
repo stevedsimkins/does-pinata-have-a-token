@@ -31,7 +31,12 @@
 
 <div class="container">
   {#if isVisible}
-    <ConfettiExplosion colors={['#8000DB', '#580098', '#98005E', '#FF009E', '#FFE001', '#FF9900', '#008298', '#00BEDD' ]} particlesShape="rectangles" force={0.7} />
+    <ConfettiExplosion 
+      colors={['#8000DB', '#580098', '#98005E', '#FF009E', '#FFE001', '#FF9900', '#008298', '#00BEDD' ]} 
+      particlesShape="rectangles" 
+      force={0.7} 
+      --y="10vh"
+    />
   {/if}
   <img src={logo} alt="Pinata Logo" />
   <h1>No</h1>
