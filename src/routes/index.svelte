@@ -37,9 +37,9 @@
       force={0.7} 
       --y="10vh"
     />
+    <img src={logo} alt="Pinata Logo" />
+    <h1>No</h1>
   {/if}
-  <img src={logo} alt="Pinata Logo" />
-  <h1>No</h1>
 </div>
 
 <style>
