@@ -58,5 +58,8 @@
     font-size: 90px;
     font-weight: bold;
   }
+  img {
+    max-width: 400px;
+  }
 
 </style>
